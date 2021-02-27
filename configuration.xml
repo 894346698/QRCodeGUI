@@ -1,0 +1,44 @@
+<!--所属系统：number编号 taskcode任务代号 coderegion编码地域 type装备类型-->
+<!--所属一级系统（组合件级）：number编号 code代号 name名称-->
+<!--所属二级系统（分系统级）：number编号 name名称-->
+<!--所属一级系统（整机级）：number编号 code代号 name名称-->
+<!--element（零件级）：number编号 code代号 name名称-->
+<root>
+    <system number="2" taskcode ="X2XT" coderegion="0" type = "1">
+        <first-system number="2" code="R/1XX111-XX.XX/01-XX" name="XXX发动机">
+            <second-system number="1" name="2">
+                <third-system number="1" code="ZJDH01" name="XXX发动机">
+                    <element number="1" code="ZJDH01" name="XXX发动机"></element>
+                    <element number="3" code="2" name="2"></element>
+                </third-system>
+            </second-system>
+        </first-system>
+        <first-system number="1" code="R/1XX111-XX.XX/01-XX" name="XXX发动机">
+            <second-system number="1" name="2">
+                <third-system number="1" code="ZJDH01" name="XXX发动机">
+                    <element number="1" code="ZJDH01" name="XXX发动机"></element>
+                    <element number="3" code="2" name="2"></element>
+                </third-system>
+            </second-system>
+        </first-system>
+    </system>
+    <system number="1" taskcode ="XX11" coderegion="0" type = "1">
+        <first-system number="2" code="R/1XX111-XX.XX/01-XX" name="某某综合分析测试设备某某数据接收测试软件">
+            <second-system number="1" name="2">
+                <third-system number="1" code="R/1XX111-XX.XX/01-XX" name="某某综合分析测试设备某某数据接收测试软件">
+                    <element number="1" code="R/1XX111-XX.XX/01-XX" name="某某综合分析测试设备某某数据接收测试软件"></element>
+                    <element number="3" code="2" name="2"></element>
+                </third-system>
+            </second-system>
+        </first-system>
+        <first-system number="1" code="R/1XX111-XX.XX/01-XX" name="某某综合分析测试设备某某数据接收测试软件">
+            <second-system number="1" name="2">
+                <third-system number="1" code="R/1XX111-XX.XX/01-XX" name="某某综合分析测试设备某某数据接收测试软件">
+                    <element number="1" code="R/1XX111-XX.XX/01-XX" name="某某综合分析测试设备某某数据接收测试软件"></element>
+                    <element number="3" code="2" name="2"></element>
+                </third-system>
+            </second-system>
+        </first-system>
+    </system>
+
+</root>

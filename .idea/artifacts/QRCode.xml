@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="QRCode">
+    <output-path>$PROJECT_DIR$/classes/artifacts/QRCode</output-path>
+    <root id="archive" name="QRCode.jar">
+      <element id="module-output" name="QRCode" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/commons-math3-3.6.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/javase-3.3.3(zxing).jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/opencv-401.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/QRCode.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/SwingSets3(BeautyEyeLNFDemo).jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/zxing-core-2.0.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/poi-4.1.2.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../poi-4.1.2/poi-ooxml-4.1.2.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/dom4j-1.6.1.jar" />
+    </root>
+  </artifact>
+</component>
